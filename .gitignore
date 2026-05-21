@@ -1,0 +1,25 @@
+# Runtime artifacts
+*.run.log
+*.nohup.log
+
+# Local build / cache dirs (default ROOT layout)
+trtllm-clean/
+results/
+logs/
+venv/
+src/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
